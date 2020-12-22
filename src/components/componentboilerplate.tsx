@@ -20,6 +20,12 @@ interface Props {
     children: () => JSX.Element | null;
 }
 
+/**
+ * Description of the component
+ * @param props.name
+ * @param props.age
+ * etc...
+ */
 const ComponentBoilerplate: React.FC<Props> = ({
     name,
     age,
